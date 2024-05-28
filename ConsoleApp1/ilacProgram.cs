@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Grup_3_Project.Domain
+namespace ConsoleApp1
 {
-    
+    internal class ilacProgram
+    {
+    }
 }
