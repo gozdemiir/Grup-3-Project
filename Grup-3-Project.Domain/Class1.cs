@@ -5,37 +5,7 @@
         {
         static void Main(string[] args)
         {
-            List<ilacProgramı> medications = new List<ilacProgramı>
-            {
-                new ilacProgramı("A", 2, true, "tok"),
-                new ilacProgramı("B", 3, true, "tok"),
-                new ilacProgramı("C", 3, true, "tok"),
-                new ilacProgramı("D", 1, false, "tok", true),
-                new ilacProgramı("E", 3, false, "aç")
-            };
-
-            Console.WriteLine("Bir haftalık ilaç programı başlıyor...");
-
-            for (int day = 1; day <= 7; day++)
-            {
-                Console.WriteLine($"Gün {day}:");
-                foreach (var med in medications)
-                {
-                    med.TakeMedication();
-                }
-            }
-
-            Console.Write("Bu hafta sonunda ilaçlara devam etmek istiyor musunuz? (Evet/Hayır): ");
-            string response = Console.ReadLine().ToUpper();
-
-            if (response == "Evet")
-            {
-                Console.WriteLine("İlaçlara devam ediyorsunuz.");
-            }
-            else
-            {
-                Console.WriteLine("İlaçları bırakıyorsunuz.Geçmiş olsun");
-            }
+            
         }
     }
 
